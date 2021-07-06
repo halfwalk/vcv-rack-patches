@@ -1,0 +1,2309 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 375,
+      "data": {
+        "audio": {
+          "driver": 7,
+          "deviceName": "ReaRoute ASIO (x64)",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        58,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "leftModuleId": 79,
+      "rightModuleId": 94,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 3",
+          "channel": -1
+        }
+      },
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 76,
+      "plugin": "Stoermelder-P1",
+      "version": "1.9.0",
+      "model": "Mb",
+      "params": [],
+      "leftModuleId": 380,
+      "rightModuleId": 79,
+      "data": {
+        "mode": 1
+      },
+      "pos": [
+        6,
+        0
+      ]
+    },
+    {
+      "id": 79,
+      "plugin": "Stoermelder-P1",
+      "version": "1.9.0",
+      "model": "Stroke",
+      "params": [],
+      "leftModuleId": 76,
+      "rightModuleId": 5,
+      "data": {
+        "panelTheme": 1,
+        "keys": [
+          {
+            "button": -1,
+            "key": 49,
+            "mods": 0,
+            "mode": 24,
+            "high": false,
+            "data": "#c9b70e"
+          },
+          {
+            "button": -1,
+            "key": 50,
+            "mods": 0,
+            "mode": 24,
+            "high": false,
+            "data": "#0c8e15"
+          },
+          {
+            "button": -1,
+            "key": 51,
+            "mods": 0,
+            "mode": 24,
+            "high": false,
+            "data": "#c91847"
+          },
+          {
+            "button": -1,
+            "key": 52,
+            "mods": 0,
+            "mode": 24,
+            "high": false,
+            "data": "#364449"
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          },
+          {
+            "button": -1,
+            "key": -1,
+            "mods": 0,
+            "mode": 1,
+            "high": false,
+            "data": ""
+          }
+        ]
+      },
+      "pos": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": 94,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDI-Map",
+      "params": [],
+      "leftModuleId": 5,
+      "rightModuleId": 375,
+      "data": {
+        "maps": [
+          {
+            "cc": -1,
+            "moduleId": -1,
+            "paramId": 0
+          }
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 3",
+          "channel": -1
+        }
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 360,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": false,
+      "patina_i_y": false,
+      "patina_a_x": 1048.69849,
+      "patina_a_y": 465.392822,
+      "overlay": false,
+      "overlay_r": 0.125667572,
+      "overlay_g": 0.544597745,
+      "overlay_b": 0.876733065,
+      "overlay_a": 0.153133288,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        116,
+        0
+      ]
+    },
+    {
+      "id": 362,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": false,
+      "patina_i_y": false,
+      "patina_a_x": 1048.69849,
+      "patina_a_y": 465.392822,
+      "overlay": false,
+      "overlay_r": 0.806106925,
+      "overlay_g": 0.805288672,
+      "overlay_b": 0.207292855,
+      "overlay_a": 0.362877131,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        116,
+        1
+      ]
+    },
+    {
+      "id": 363,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": false,
+      "patina_i_y": false,
+      "patina_a_x": 1048.69849,
+      "patina_a_y": 465.392822,
+      "overlay": false,
+      "overlay_r": 0.601171911,
+      "overlay_g": 0.608569026,
+      "overlay_b": 0.904391527,
+      "overlay_a": 0.299268544,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        116,
+        2
+      ]
+    },
+    {
+      "id": 364,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "rightModuleId": 380,
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": true,
+      "patina_i_y": false,
+      "patina_a_x": 732.980896,
+      "patina_a_y": 232.628174,
+      "overlay": false,
+      "overlay_r": 0.981376708,
+      "overlay_g": 0.780078948,
+      "overlay_b": 0.548418522,
+      "overlay_a": 0.344356835,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 365,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "rightModuleId": 379,
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": true,
+      "patina_i_y": false,
+      "patina_a_x": 732.980896,
+      "patina_a_y": 232.628174,
+      "overlay": false,
+      "overlay_r": 0.0150026083,
+      "overlay_g": 0.77105546,
+      "overlay_b": 0.603396595,
+      "overlay_a": 0.414260924,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 366,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "BlankPanel_Wood",
+      "params": [],
+      "gestaltID": 1,
+      "gradient": false,
+      "patina": false,
+      "patina_i_x": true,
+      "patina_i_y": false,
+      "patina_a_x": 732.980896,
+      "patina_a_y": 232.628174,
+      "overlay": false,
+      "overlay_r": 0.625239253,
+      "overlay_g": 0.913740098,
+      "overlay_b": 0.521241128,
+      "overlay_a": 0.259902537,
+      "AGED": false,
+      "screws": true,
+      "logo": false,
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 375,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.20",
+      "model": "squinkylabs-mix8",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.800000012
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.800000012
+        },
+        {
+          "id": 3,
+          "value": 0.800000012
+        },
+        {
+          "id": 4,
+          "value": 0.800000012
+        },
+        {
+          "id": 5,
+          "value": 0.800000012
+        },
+        {
+          "id": 6,
+          "value": 0.800000012
+        },
+        {
+          "id": 7,
+          "value": 0.800000012
+        },
+        {
+          "id": 8,
+          "value": 0.800000012
+        },
+        {
+          "id": 9,
+          "value": 0.800000012
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 0.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 94,
+      "rightModuleId": 1,
+      "pos": [
+        32,
+        0
+      ]
+    },
+    {
+      "id": 379,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.11",
+      "model": "Clocked-Clkd",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 5.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 92.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 365,
+      "rightModuleId": 385,
+      "data": {
+        "panelTheme": 1,
+        "running": true,
+        "bpmDetectionMode": false,
+        "resetOnStartStop": 0,
+        "ppqn": 4,
+        "resetClockOutputsHigh": true,
+        "momentaryRunInput": true,
+        "displayIndex": 2,
+        "trigOuts": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "clockMaster": -1
+      },
+      "pos": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 380,
+      "plugin": "Stoermelder-P1",
+      "version": "1.9.0",
+      "model": "Me",
+      "params": [],
+      "leftModuleId": 364,
+      "rightModuleId": 76,
+      "pos": [
+        4,
+        0
+      ]
+    },
+    {
+      "id": 381,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "CV-MIDI",
+      "params": [],
+      "leftModuleId": 383,
+      "data": {
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 1 4",
+          "channel": 0
+        }
+      },
+      "pos": [
+        107,
+        0
+      ]
+    },
+    {
+      "id": 382,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "CV-Gate",
+      "params": [],
+      "leftModuleId": 385,
+      "rightModuleId": 391,
+      "data": {
+        "notes": [
+          72,
+          73,
+          74,
+          75,
+          68,
+          69,
+          70,
+          71,
+          64,
+          65,
+          66,
+          67,
+          60,
+          61,
+          62,
+          63
+        ],
+        "velocity": false,
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 1 4",
+          "channel": 0
+        }
+      },
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 383,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "CV-CC",
+      "params": [],
+      "rightModuleId": 381,
+      "data": {
+        "ccs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 1 4",
+          "channel": 0
+        }
+      },
+      "pos": [
+        97,
+        0
+      ]
+    },
+    {
+      "id": 385,
+      "plugin": "FrozenWasteland",
+      "version": "1.20.4",
+      "model": "QuadAlgorithmicRhythm",
+      "params": [
+        {
+          "id": 0,
+          "value": 17.0
+        },
+        {
+          "id": 1,
+          "value": 2.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 14.0
+        },
+        {
+          "id": 9,
+          "value": 5.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 19.0
+        },
+        {
+          "id": 17,
+          "value": 3.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 1.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 13.0
+        },
+        {
+          "id": 25,
+          "value": 3.0
+        },
+        {
+          "id": 26,
+          "value": 6.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 3.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 16.0
+        },
+        {
+          "id": 37,
+          "value": 0.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 0.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        },
+        {
+          "id": 47,
+          "value": 0.0
+        },
+        {
+          "id": 48,
+          "value": 0.0
+        },
+        {
+          "id": 49,
+          "value": 0.0
+        },
+        {
+          "id": 50,
+          "value": 0.0
+        },
+        {
+          "id": 51,
+          "value": 0.0
+        },
+        {
+          "id": 52,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 379,
+      "rightModuleId": 382,
+      "data": {
+        "manualRun": 0,
+        "algorithm-0": 0,
+        "accentAlgorithm-0": 0,
+        "independent-0": 0,
+        "manualBeat-0-0": 0,
+        "manualBeat-0-1": 0,
+        "manualBeat-0-2": 0,
+        "manualBeat-0-3": 0,
+        "manualBeat-0-4": 0,
+        "manualAccent-0-0": 0,
+        "manualAccent-0-1": 0,
+        "manualAccent-0-2": 0,
+        "manualAccent-0-3": 0,
+        "manualAccent-0-4": 0,
+        "algorithm-1": 0,
+        "accentAlgorithm-1": 0,
+        "independent-1": 0,
+        "manualBeat-1-0": 0,
+        "manualBeat-1-1": 0,
+        "manualBeat-1-2": 0,
+        "manualBeat-1-3": 0,
+        "manualBeat-1-4": 0,
+        "manualAccent-1-0": 0,
+        "manualAccent-1-1": 0,
+        "manualAccent-1-2": 0,
+        "manualAccent-1-3": 0,
+        "manualAccent-1-4": 0,
+        "algorithm-2": 0,
+        "accentAlgorithm-2": 0,
+        "independent-2": 0,
+        "manualBeat-2-0": 0,
+        "manualBeat-2-1": 0,
+        "manualBeat-2-2": 0,
+        "manualBeat-2-3": 0,
+        "manualBeat-2-4": 0,
+        "manualAccent-2-0": 0,
+        "manualAccent-2-1": 0,
+        "manualAccent-2-2": 0,
+        "manualAccent-2-3": 0,
+        "manualAccent-2-4": 0,
+        "algorithm-3": 0,
+        "accentAlgorithm-3": 0,
+        "independent-3": 0,
+        "manualBeat-3-0": 0,
+        "manualBeat-3-1": 0,
+        "manualBeat-3-2": 0,
+        "manualBeat-3-3": 0,
+        "manualBeat-3-4": 0,
+        "manualAccent-3-0": 0,
+        "manualAccent-3-1": 0,
+        "manualAccent-3-2": 0,
+        "manualAccent-3-3": 0,
+        "manualAccent-3-4": 0,
+        "currentScene": 0,
+        "constantTime": 0,
+        "masterTrack": 0,
+        "chainMode": 0,
+        "muted": 0,
+        "bpmX4": 0,
+        "resetTriggerisHardReset": 0,
+        "sceneData-0-0": 0.0,
+        "sceneData-0-1": 0.0,
+        "sceneData-0-2": 0.0,
+        "sceneData-0-3": 0.0,
+        "sceneData-0-4": 0.0,
+        "sceneData-0-5": 0.0,
+        "sceneData-0-6": 0.0,
+        "sceneData-0-7": 0.0,
+        "sceneData-0-8": 0.0,
+        "sceneData-0-9": 0.0,
+        "sceneData-0-10": 0.0,
+        "sceneData-0-11": 0.0,
+        "sceneData-0-12": 0.0,
+        "sceneData-0-13": 0.0,
+        "sceneData-0-14": 0.0,
+        "sceneData-0-15": 0.0,
+        "sceneData-0-16": 0.0,
+        "sceneData-0-17": 0.0,
+        "sceneData-0-18": 0.0,
+        "sceneData-0-19": 0.0,
+        "sceneData-0-20": 0.0,
+        "sceneData-0-21": 0.0,
+        "sceneData-0-22": 0.0,
+        "sceneData-0-23": 0.0,
+        "sceneData-0-24": 0.0,
+        "sceneData-0-25": 0.0,
+        "sceneData-0-26": 0.0,
+        "sceneData-0-27": 0.0,
+        "sceneData-0-28": 0.0,
+        "sceneData-0-29": 0.0,
+        "sceneData-0-30": 0.0,
+        "sceneData-0-31": 0.0,
+        "sceneData-0-32": 0.0,
+        "sceneData-0-33": 0.0,
+        "sceneData-0-34": 0.0,
+        "sceneData-0-35": 0.0,
+        "sceneData-0-36": 0.0,
+        "sceneData-0-37": 0.0,
+        "sceneData-0-38": 0.0,
+        "sceneData-0-39": 0.0,
+        "sceneData-0-40": 0.0,
+        "sceneData-0-41": 0.0,
+        "sceneData-0-42": 0.0,
+        "sceneData-0-43": 0.0,
+        "sceneData-0-44": 0.0,
+        "sceneData-0-45": 0.0,
+        "sceneData-0-46": 0.0,
+        "sceneData-0-47": 0.0,
+        "sceneData-0-48": 0.0,
+        "sceneData-0-49": 0.0,
+        "sceneData-0-50": 0.0,
+        "sceneData-0-51": 0.0,
+        "sceneData-0-52": 0.0,
+        "sceneData-0-53": 0.0,
+        "sceneData-0-54": 0.0,
+        "sceneData-0-55": 0.0,
+        "sceneData-0-56": 0.0,
+        "sceneData-0-57": 0.0,
+        "sceneData-0-58": 0.0,
+        "sceneData-0-59": 0.0,
+        "sceneData-0-60": 0.0,
+        "sceneData-0-61": 0.0,
+        "sceneData-0-62": 0.0,
+        "sceneData-0-63": 0.0,
+        "sceneData-0-64": 0.0,
+        "sceneData-0-65": 0.0,
+        "sceneData-0-66": 0.0,
+        "sceneData-0-67": 0.0,
+        "sceneData-0-68": 0.0,
+        "sceneData-0-69": 0.0,
+        "sceneData-0-70": 0.0,
+        "sceneData-0-71": 0.0,
+        "sceneData-0-72": 0.0,
+        "sceneData-0-73": 0.0,
+        "sceneData-0-74": 0.0,
+        "sceneData-0-75": 0.0,
+        "sceneData-0-76": 0.0,
+        "sceneData-0-77": 0.0,
+        "sceneData-0-78": 0.0,
+        "sceneData-1-0": 0.0,
+        "sceneData-1-1": 0.0,
+        "sceneData-1-2": 0.0,
+        "sceneData-1-3": 0.0,
+        "sceneData-1-4": 0.0,
+        "sceneData-1-5": 0.0,
+        "sceneData-1-6": 0.0,
+        "sceneData-1-7": 0.0,
+        "sceneData-1-8": 0.0,
+        "sceneData-1-9": 0.0,
+        "sceneData-1-10": 0.0,
+        "sceneData-1-11": 0.0,
+        "sceneData-1-12": 0.0,
+        "sceneData-1-13": 0.0,
+        "sceneData-1-14": 0.0,
+        "sceneData-1-15": 0.0,
+        "sceneData-1-16": 0.0,
+        "sceneData-1-17": 0.0,
+        "sceneData-1-18": 0.0,
+        "sceneData-1-19": 0.0,
+        "sceneData-1-20": 0.0,
+        "sceneData-1-21": 0.0,
+        "sceneData-1-22": 0.0,
+        "sceneData-1-23": 0.0,
+        "sceneData-1-24": 0.0,
+        "sceneData-1-25": 0.0,
+        "sceneData-1-26": 0.0,
+        "sceneData-1-27": 0.0,
+        "sceneData-1-28": 0.0,
+        "sceneData-1-29": 0.0,
+        "sceneData-1-30": 0.0,
+        "sceneData-1-31": 0.0,
+        "sceneData-1-32": 0.0,
+        "sceneData-1-33": 0.0,
+        "sceneData-1-34": 0.0,
+        "sceneData-1-35": 0.0,
+        "sceneData-1-36": 0.0,
+        "sceneData-1-37": 0.0,
+        "sceneData-1-38": 0.0,
+        "sceneData-1-39": 0.0,
+        "sceneData-1-40": 0.0,
+        "sceneData-1-41": 0.0,
+        "sceneData-1-42": 0.0,
+        "sceneData-1-43": 0.0,
+        "sceneData-1-44": 0.0,
+        "sceneData-1-45": 0.0,
+        "sceneData-1-46": 0.0,
+        "sceneData-1-47": 0.0,
+        "sceneData-1-48": 0.0,
+        "sceneData-1-49": 0.0,
+        "sceneData-1-50": 0.0,
+        "sceneData-1-51": 0.0,
+        "sceneData-1-52": 0.0,
+        "sceneData-1-53": 0.0,
+        "sceneData-1-54": 0.0,
+        "sceneData-1-55": 0.0,
+        "sceneData-1-56": 0.0,
+        "sceneData-1-57": 0.0,
+        "sceneData-1-58": 0.0,
+        "sceneData-1-59": 0.0,
+        "sceneData-1-60": 0.0,
+        "sceneData-1-61": 0.0,
+        "sceneData-1-62": 0.0,
+        "sceneData-1-63": 0.0,
+        "sceneData-1-64": 0.0,
+        "sceneData-1-65": 0.0,
+        "sceneData-1-66": 0.0,
+        "sceneData-1-67": 0.0,
+        "sceneData-1-68": 0.0,
+        "sceneData-1-69": 0.0,
+        "sceneData-1-70": 0.0,
+        "sceneData-1-71": 0.0,
+        "sceneData-1-72": 0.0,
+        "sceneData-1-73": 0.0,
+        "sceneData-1-74": 0.0,
+        "sceneData-1-75": 0.0,
+        "sceneData-1-76": 0.0,
+        "sceneData-1-77": 0.0,
+        "sceneData-1-78": 0.0,
+        "sceneData-2-0": 0.0,
+        "sceneData-2-1": 0.0,
+        "sceneData-2-2": 0.0,
+        "sceneData-2-3": 0.0,
+        "sceneData-2-4": 0.0,
+        "sceneData-2-5": 0.0,
+        "sceneData-2-6": 0.0,
+        "sceneData-2-7": 0.0,
+        "sceneData-2-8": 0.0,
+        "sceneData-2-9": 0.0,
+        "sceneData-2-10": 0.0,
+        "sceneData-2-11": 0.0,
+        "sceneData-2-12": 0.0,
+        "sceneData-2-13": 0.0,
+        "sceneData-2-14": 0.0,
+        "sceneData-2-15": 0.0,
+        "sceneData-2-16": 0.0,
+        "sceneData-2-17": 0.0,
+        "sceneData-2-18": 0.0,
+        "sceneData-2-19": 0.0,
+        "sceneData-2-20": 0.0,
+        "sceneData-2-21": 0.0,
+        "sceneData-2-22": 0.0,
+        "sceneData-2-23": 0.0,
+        "sceneData-2-24": 0.0,
+        "sceneData-2-25": 0.0,
+        "sceneData-2-26": 0.0,
+        "sceneData-2-27": 0.0,
+        "sceneData-2-28": 0.0,
+        "sceneData-2-29": 0.0,
+        "sceneData-2-30": 0.0,
+        "sceneData-2-31": 0.0,
+        "sceneData-2-32": 0.0,
+        "sceneData-2-33": 0.0,
+        "sceneData-2-34": 0.0,
+        "sceneData-2-35": 0.0,
+        "sceneData-2-36": 0.0,
+        "sceneData-2-37": 0.0,
+        "sceneData-2-38": 0.0,
+        "sceneData-2-39": 0.0,
+        "sceneData-2-40": 0.0,
+        "sceneData-2-41": 0.0,
+        "sceneData-2-42": 0.0,
+        "sceneData-2-43": 0.0,
+        "sceneData-2-44": 0.0,
+        "sceneData-2-45": 0.0,
+        "sceneData-2-46": 0.0,
+        "sceneData-2-47": 0.0,
+        "sceneData-2-48": 0.0,
+        "sceneData-2-49": 0.0,
+        "sceneData-2-50": 0.0,
+        "sceneData-2-51": 0.0,
+        "sceneData-2-52": 0.0,
+        "sceneData-2-53": 0.0,
+        "sceneData-2-54": 0.0,
+        "sceneData-2-55": 0.0,
+        "sceneData-2-56": 0.0,
+        "sceneData-2-57": 0.0,
+        "sceneData-2-58": 0.0,
+        "sceneData-2-59": 0.0,
+        "sceneData-2-60": 0.0,
+        "sceneData-2-61": 0.0,
+        "sceneData-2-62": 0.0,
+        "sceneData-2-63": 0.0,
+        "sceneData-2-64": 0.0,
+        "sceneData-2-65": 0.0,
+        "sceneData-2-66": 0.0,
+        "sceneData-2-67": 0.0,
+        "sceneData-2-68": 0.0,
+        "sceneData-2-69": 0.0,
+        "sceneData-2-70": 0.0,
+        "sceneData-2-71": 0.0,
+        "sceneData-2-72": 0.0,
+        "sceneData-2-73": 0.0,
+        "sceneData-2-74": 0.0,
+        "sceneData-2-75": 0.0,
+        "sceneData-2-76": 0.0,
+        "sceneData-2-77": 0.0,
+        "sceneData-2-78": 0.0,
+        "sceneData-3-0": 0.0,
+        "sceneData-3-1": 0.0,
+        "sceneData-3-2": 0.0,
+        "sceneData-3-3": 0.0,
+        "sceneData-3-4": 0.0,
+        "sceneData-3-5": 0.0,
+        "sceneData-3-6": 0.0,
+        "sceneData-3-7": 0.0,
+        "sceneData-3-8": 0.0,
+        "sceneData-3-9": 0.0,
+        "sceneData-3-10": 0.0,
+        "sceneData-3-11": 0.0,
+        "sceneData-3-12": 0.0,
+        "sceneData-3-13": 0.0,
+        "sceneData-3-14": 0.0,
+        "sceneData-3-15": 0.0,
+        "sceneData-3-16": 0.0,
+        "sceneData-3-17": 0.0,
+        "sceneData-3-18": 0.0,
+        "sceneData-3-19": 0.0,
+        "sceneData-3-20": 0.0,
+        "sceneData-3-21": 0.0,
+        "sceneData-3-22": 0.0,
+        "sceneData-3-23": 0.0,
+        "sceneData-3-24": 0.0,
+        "sceneData-3-25": 0.0,
+        "sceneData-3-26": 0.0,
+        "sceneData-3-27": 0.0,
+        "sceneData-3-28": 0.0,
+        "sceneData-3-29": 0.0,
+        "sceneData-3-30": 0.0,
+        "sceneData-3-31": 0.0,
+        "sceneData-3-32": 0.0,
+        "sceneData-3-33": 0.0,
+        "sceneData-3-34": 0.0,
+        "sceneData-3-35": 0.0,
+        "sceneData-3-36": 0.0,
+        "sceneData-3-37": 0.0,
+        "sceneData-3-38": 0.0,
+        "sceneData-3-39": 0.0,
+        "sceneData-3-40": 0.0,
+        "sceneData-3-41": 0.0,
+        "sceneData-3-42": 0.0,
+        "sceneData-3-43": 0.0,
+        "sceneData-3-44": 0.0,
+        "sceneData-3-45": 0.0,
+        "sceneData-3-46": 0.0,
+        "sceneData-3-47": 0.0,
+        "sceneData-3-48": 0.0,
+        "sceneData-3-49": 0.0,
+        "sceneData-3-50": 0.0,
+        "sceneData-3-51": 0.0,
+        "sceneData-3-52": 0.0,
+        "sceneData-3-53": 0.0,
+        "sceneData-3-54": 0.0,
+        "sceneData-3-55": 0.0,
+        "sceneData-3-56": 0.0,
+        "sceneData-3-57": 0.0,
+        "sceneData-3-58": 0.0,
+        "sceneData-3-59": 0.0,
+        "sceneData-3-60": 0.0,
+        "sceneData-3-61": 0.0,
+        "sceneData-3-62": 0.0,
+        "sceneData-3-63": 0.0,
+        "sceneData-3-64": 0.0,
+        "sceneData-3-65": 0.0,
+        "sceneData-3-66": 0.0,
+        "sceneData-3-67": 0.0,
+        "sceneData-3-68": 0.0,
+        "sceneData-3-69": 0.0,
+        "sceneData-3-70": 0.0,
+        "sceneData-3-71": 0.0,
+        "sceneData-3-72": 0.0,
+        "sceneData-3-73": 0.0,
+        "sceneData-3-74": 0.0,
+        "sceneData-3-75": 0.0,
+        "sceneData-3-76": 0.0,
+        "sceneData-3-77": 0.0,
+        "sceneData-3-78": 0.0,
+        "sceneData-4-0": 0.0,
+        "sceneData-4-1": 0.0,
+        "sceneData-4-2": 0.0,
+        "sceneData-4-3": 0.0,
+        "sceneData-4-4": 0.0,
+        "sceneData-4-5": 0.0,
+        "sceneData-4-6": 0.0,
+        "sceneData-4-7": 0.0,
+        "sceneData-4-8": 0.0,
+        "sceneData-4-9": 0.0,
+        "sceneData-4-10": 0.0,
+        "sceneData-4-11": 0.0,
+        "sceneData-4-12": 0.0,
+        "sceneData-4-13": 0.0,
+        "sceneData-4-14": 0.0,
+        "sceneData-4-15": 0.0,
+        "sceneData-4-16": 0.0,
+        "sceneData-4-17": 0.0,
+        "sceneData-4-18": 0.0,
+        "sceneData-4-19": 0.0,
+        "sceneData-4-20": 0.0,
+        "sceneData-4-21": 0.0,
+        "sceneData-4-22": 0.0,
+        "sceneData-4-23": 0.0,
+        "sceneData-4-24": 0.0,
+        "sceneData-4-25": 0.0,
+        "sceneData-4-26": 0.0,
+        "sceneData-4-27": 0.0,
+        "sceneData-4-28": 0.0,
+        "sceneData-4-29": 0.0,
+        "sceneData-4-30": 0.0,
+        "sceneData-4-31": 0.0,
+        "sceneData-4-32": 0.0,
+        "sceneData-4-33": 0.0,
+        "sceneData-4-34": 0.0,
+        "sceneData-4-35": 0.0,
+        "sceneData-4-36": 0.0,
+        "sceneData-4-37": 0.0,
+        "sceneData-4-38": 0.0,
+        "sceneData-4-39": 0.0,
+        "sceneData-4-40": 0.0,
+        "sceneData-4-41": 0.0,
+        "sceneData-4-42": 0.0,
+        "sceneData-4-43": 0.0,
+        "sceneData-4-44": 0.0,
+        "sceneData-4-45": 0.0,
+        "sceneData-4-46": 0.0,
+        "sceneData-4-47": 0.0,
+        "sceneData-4-48": 0.0,
+        "sceneData-4-49": 0.0,
+        "sceneData-4-50": 0.0,
+        "sceneData-4-51": 0.0,
+        "sceneData-4-52": 0.0,
+        "sceneData-4-53": 0.0,
+        "sceneData-4-54": 0.0,
+        "sceneData-4-55": 0.0,
+        "sceneData-4-56": 0.0,
+        "sceneData-4-57": 0.0,
+        "sceneData-4-58": 0.0,
+        "sceneData-4-59": 0.0,
+        "sceneData-4-60": 0.0,
+        "sceneData-4-61": 0.0,
+        "sceneData-4-62": 0.0,
+        "sceneData-4-63": 0.0,
+        "sceneData-4-64": 0.0,
+        "sceneData-4-65": 0.0,
+        "sceneData-4-66": 0.0,
+        "sceneData-4-67": 0.0,
+        "sceneData-4-68": 0.0,
+        "sceneData-4-69": 0.0,
+        "sceneData-4-70": 0.0,
+        "sceneData-4-71": 0.0,
+        "sceneData-4-72": 0.0,
+        "sceneData-4-73": 0.0,
+        "sceneData-4-74": 0.0,
+        "sceneData-4-75": 0.0,
+        "sceneData-4-76": 0.0,
+        "sceneData-4-77": 0.0,
+        "sceneData-4-78": 0.0,
+        "sceneData-5-0": 0.0,
+        "sceneData-5-1": 0.0,
+        "sceneData-5-2": 0.0,
+        "sceneData-5-3": 0.0,
+        "sceneData-5-4": 0.0,
+        "sceneData-5-5": 0.0,
+        "sceneData-5-6": 0.0,
+        "sceneData-5-7": 0.0,
+        "sceneData-5-8": 0.0,
+        "sceneData-5-9": 0.0,
+        "sceneData-5-10": 0.0,
+        "sceneData-5-11": 0.0,
+        "sceneData-5-12": 0.0,
+        "sceneData-5-13": 0.0,
+        "sceneData-5-14": 0.0,
+        "sceneData-5-15": 0.0,
+        "sceneData-5-16": 0.0,
+        "sceneData-5-17": 0.0,
+        "sceneData-5-18": 0.0,
+        "sceneData-5-19": 0.0,
+        "sceneData-5-20": 0.0,
+        "sceneData-5-21": 0.0,
+        "sceneData-5-22": 0.0,
+        "sceneData-5-23": 0.0,
+        "sceneData-5-24": 0.0,
+        "sceneData-5-25": 0.0,
+        "sceneData-5-26": 0.0,
+        "sceneData-5-27": 0.0,
+        "sceneData-5-28": 0.0,
+        "sceneData-5-29": 0.0,
+        "sceneData-5-30": 0.0,
+        "sceneData-5-31": 0.0,
+        "sceneData-5-32": 0.0,
+        "sceneData-5-33": 0.0,
+        "sceneData-5-34": 0.0,
+        "sceneData-5-35": 0.0,
+        "sceneData-5-36": 0.0,
+        "sceneData-5-37": 0.0,
+        "sceneData-5-38": 0.0,
+        "sceneData-5-39": 0.0,
+        "sceneData-5-40": 0.0,
+        "sceneData-5-41": 0.0,
+        "sceneData-5-42": 0.0,
+        "sceneData-5-43": 0.0,
+        "sceneData-5-44": 0.0,
+        "sceneData-5-45": 0.0,
+        "sceneData-5-46": 0.0,
+        "sceneData-5-47": 0.0,
+        "sceneData-5-48": 0.0,
+        "sceneData-5-49": 0.0,
+        "sceneData-5-50": 0.0,
+        "sceneData-5-51": 0.0,
+        "sceneData-5-52": 0.0,
+        "sceneData-5-53": 0.0,
+        "sceneData-5-54": 0.0,
+        "sceneData-5-55": 0.0,
+        "sceneData-5-56": 0.0,
+        "sceneData-5-57": 0.0,
+        "sceneData-5-58": 0.0,
+        "sceneData-5-59": 0.0,
+        "sceneData-5-60": 0.0,
+        "sceneData-5-61": 0.0,
+        "sceneData-5-62": 0.0,
+        "sceneData-5-63": 0.0,
+        "sceneData-5-64": 0.0,
+        "sceneData-5-65": 0.0,
+        "sceneData-5-66": 0.0,
+        "sceneData-5-67": 0.0,
+        "sceneData-5-68": 0.0,
+        "sceneData-5-69": 0.0,
+        "sceneData-5-70": 0.0,
+        "sceneData-5-71": 0.0,
+        "sceneData-5-72": 0.0,
+        "sceneData-5-73": 0.0,
+        "sceneData-5-74": 0.0,
+        "sceneData-5-75": 0.0,
+        "sceneData-5-76": 0.0,
+        "sceneData-5-77": 0.0,
+        "sceneData-5-78": 0.0,
+        "sceneData-6-0": 0.0,
+        "sceneData-6-1": 0.0,
+        "sceneData-6-2": 0.0,
+        "sceneData-6-3": 0.0,
+        "sceneData-6-4": 0.0,
+        "sceneData-6-5": 0.0,
+        "sceneData-6-6": 0.0,
+        "sceneData-6-7": 0.0,
+        "sceneData-6-8": 0.0,
+        "sceneData-6-9": 0.0,
+        "sceneData-6-10": 0.0,
+        "sceneData-6-11": 0.0,
+        "sceneData-6-12": 0.0,
+        "sceneData-6-13": 0.0,
+        "sceneData-6-14": 0.0,
+        "sceneData-6-15": 0.0,
+        "sceneData-6-16": 0.0,
+        "sceneData-6-17": 0.0,
+        "sceneData-6-18": 0.0,
+        "sceneData-6-19": 0.0,
+        "sceneData-6-20": 0.0,
+        "sceneData-6-21": 0.0,
+        "sceneData-6-22": 0.0,
+        "sceneData-6-23": 0.0,
+        "sceneData-6-24": 0.0,
+        "sceneData-6-25": 0.0,
+        "sceneData-6-26": 0.0,
+        "sceneData-6-27": 0.0,
+        "sceneData-6-28": 0.0,
+        "sceneData-6-29": 0.0,
+        "sceneData-6-30": 0.0,
+        "sceneData-6-31": 0.0,
+        "sceneData-6-32": 0.0,
+        "sceneData-6-33": 0.0,
+        "sceneData-6-34": 0.0,
+        "sceneData-6-35": 0.0,
+        "sceneData-6-36": 0.0,
+        "sceneData-6-37": 0.0,
+        "sceneData-6-38": 0.0,
+        "sceneData-6-39": 0.0,
+        "sceneData-6-40": 0.0,
+        "sceneData-6-41": 0.0,
+        "sceneData-6-42": 0.0,
+        "sceneData-6-43": 0.0,
+        "sceneData-6-44": 0.0,
+        "sceneData-6-45": 0.0,
+        "sceneData-6-46": 0.0,
+        "sceneData-6-47": 0.0,
+        "sceneData-6-48": 0.0,
+        "sceneData-6-49": 0.0,
+        "sceneData-6-50": 0.0,
+        "sceneData-6-51": 0.0,
+        "sceneData-6-52": 0.0,
+        "sceneData-6-53": 0.0,
+        "sceneData-6-54": 0.0,
+        "sceneData-6-55": 0.0,
+        "sceneData-6-56": 0.0,
+        "sceneData-6-57": 0.0,
+        "sceneData-6-58": 0.0,
+        "sceneData-6-59": 0.0,
+        "sceneData-6-60": 0.0,
+        "sceneData-6-61": 0.0,
+        "sceneData-6-62": 0.0,
+        "sceneData-6-63": 0.0,
+        "sceneData-6-64": 0.0,
+        "sceneData-6-65": 0.0,
+        "sceneData-6-66": 0.0,
+        "sceneData-6-67": 0.0,
+        "sceneData-6-68": 0.0,
+        "sceneData-6-69": 0.0,
+        "sceneData-6-70": 0.0,
+        "sceneData-6-71": 0.0,
+        "sceneData-6-72": 0.0,
+        "sceneData-6-73": 0.0,
+        "sceneData-6-74": 0.0,
+        "sceneData-6-75": 0.0,
+        "sceneData-6-76": 0.0,
+        "sceneData-6-77": 0.0,
+        "sceneData-6-78": 0.0,
+        "sceneData-7-0": 0.0,
+        "sceneData-7-1": 0.0,
+        "sceneData-7-2": 0.0,
+        "sceneData-7-3": 0.0,
+        "sceneData-7-4": 0.0,
+        "sceneData-7-5": 0.0,
+        "sceneData-7-6": 0.0,
+        "sceneData-7-7": 0.0,
+        "sceneData-7-8": 0.0,
+        "sceneData-7-9": 0.0,
+        "sceneData-7-10": 0.0,
+        "sceneData-7-11": 0.0,
+        "sceneData-7-12": 0.0,
+        "sceneData-7-13": 0.0,
+        "sceneData-7-14": 0.0,
+        "sceneData-7-15": 0.0,
+        "sceneData-7-16": 0.0,
+        "sceneData-7-17": 0.0,
+        "sceneData-7-18": 0.0,
+        "sceneData-7-19": 0.0,
+        "sceneData-7-20": 0.0,
+        "sceneData-7-21": 0.0,
+        "sceneData-7-22": 0.0,
+        "sceneData-7-23": 0.0,
+        "sceneData-7-24": 0.0,
+        "sceneData-7-25": 0.0,
+        "sceneData-7-26": 0.0,
+        "sceneData-7-27": 0.0,
+        "sceneData-7-28": 0.0,
+        "sceneData-7-29": 0.0,
+        "sceneData-7-30": 0.0,
+        "sceneData-7-31": 0.0,
+        "sceneData-7-32": 0.0,
+        "sceneData-7-33": 0.0,
+        "sceneData-7-34": 0.0,
+        "sceneData-7-35": 0.0,
+        "sceneData-7-36": 0.0,
+        "sceneData-7-37": 0.0,
+        "sceneData-7-38": 0.0,
+        "sceneData-7-39": 0.0,
+        "sceneData-7-40": 0.0,
+        "sceneData-7-41": 0.0,
+        "sceneData-7-42": 0.0,
+        "sceneData-7-43": 0.0,
+        "sceneData-7-44": 0.0,
+        "sceneData-7-45": 0.0,
+        "sceneData-7-46": 0.0,
+        "sceneData-7-47": 0.0,
+        "sceneData-7-48": 0.0,
+        "sceneData-7-49": 0.0,
+        "sceneData-7-50": 0.0,
+        "sceneData-7-51": 0.0,
+        "sceneData-7-52": 0.0,
+        "sceneData-7-53": 0.0,
+        "sceneData-7-54": 0.0,
+        "sceneData-7-55": 0.0,
+        "sceneData-7-56": 0.0,
+        "sceneData-7-57": 0.0,
+        "sceneData-7-58": 0.0,
+        "sceneData-7-59": 0.0,
+        "sceneData-7-60": 0.0,
+        "sceneData-7-61": 0.0,
+        "sceneData-7-62": 0.0,
+        "sceneData-7-63": 0.0,
+        "sceneData-7-64": 0.0,
+        "sceneData-7-65": 0.0,
+        "sceneData-7-66": 0.0,
+        "sceneData-7-67": 0.0,
+        "sceneData-7-68": 0.0,
+        "sceneData-7-69": 0.0,
+        "sceneData-7-70": 0.0,
+        "sceneData-7-71": 0.0,
+        "sceneData-7-72": 0.0,
+        "sceneData-7-73": 0.0,
+        "sceneData-7-74": 0.0,
+        "sceneData-7-75": 0.0,
+        "sceneData-7-76": 0.0,
+        "sceneData-7-77": 0.0,
+        "sceneData-7-78": 0.0
+      },
+      "pos": [
+        14,
+        1
+      ]
+    },
+    {
+      "id": 391,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 382,
+      "rightModuleId": 392,
+      "data": {},
+      "pos": [
+        65,
+        1
+      ]
+    },
+    {
+      "id": 392,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.655999839
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 391,
+      "rightModuleId": 394,
+      "data": {},
+      "pos": [
+        68,
+        1
+      ]
+    },
+    {
+      "id": 394,
+      "plugin": "repelzen",
+      "version": "1.1.0",
+      "model": "reburst",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.508000016
+        },
+        {
+          "id": 2,
+          "value": 4.0
+        },
+        {
+          "id": 3,
+          "value": 1.28649986
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 392,
+      "pos": [
+        71,
+        1
+      ]
+    },
+    {
+      "id": 395,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "CV-Gate",
+      "params": [],
+      "leftModuleId": 399,
+      "rightModuleId": 402,
+      "data": {
+        "notes": [
+          72,
+          73,
+          74,
+          75,
+          68,
+          69,
+          70,
+          71,
+          64,
+          65,
+          66,
+          67,
+          60,
+          61,
+          62,
+          63
+        ],
+        "velocity": false,
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 1 4",
+          "channel": 1
+        }
+      },
+      "pos": [
+        55,
+        2
+      ]
+    },
+    {
+      "id": 396,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 402,
+      "rightModuleId": 397,
+      "data": {},
+      "pos": [
+        68,
+        2
+      ]
+    },
+    {
+      "id": 397,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Branches",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 396,
+      "rightModuleId": 400,
+      "data": {
+        "modes": [
+          true,
+          false
+        ]
+      },
+      "pos": [
+        71,
+        2
+      ]
+    },
+    {
+      "id": 399,
+      "plugin": "Valley",
+      "version": "1.1.7",
+      "model": "uGraph",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.193500012
+        },
+        {
+          "id": 4,
+          "value": 0.14850001
+        },
+        {
+          "id": 5,
+          "value": 0.337499887
+        },
+        {
+          "id": 6,
+          "value": 0.533000052
+        },
+        {
+          "id": 7,
+          "value": 0.460999966
+        },
+        {
+          "id": 8,
+          "value": 0.52700001
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 401,
+      "rightModuleId": 395,
+      "data": {
+        "sequencerMode": 2,
+        "triggerOutputMode": 0,
+        "accOutputMode": 0,
+        "extClockResolution": 0,
+        "chaosKnobMode": 0,
+        "runMode": 0,
+        "panelStyle": 0,
+        "running": 1
+      },
+      "pos": [
+        45,
+        2
+      ]
+    },
+    {
+      "id": 400,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Branches",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 397,
+      "data": {
+        "modes": [
+          false,
+          false
+        ]
+      },
+      "pos": [
+        77,
+        2
+      ]
+    },
+    {
+      "id": 401,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "CV-Gate",
+      "params": [],
+      "leftModuleId": 403,
+      "rightModuleId": 399,
+      "data": {
+        "notes": [
+          72,
+          73,
+          74,
+          75,
+          68,
+          69,
+          70,
+          71,
+          64,
+          65,
+          66,
+          67,
+          60,
+          61,
+          62,
+          63
+        ],
+        "velocity": false,
+        "midi": {
+          "driver": 4,
+          "deviceName": "loopMIDI Port 1 4",
+          "channel": 2
+        }
+      },
+      "pos": [
+        35,
+        2
+      ]
+    },
+    {
+      "id": 402,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 395,
+      "rightModuleId": 396,
+      "data": {},
+      "pos": [
+        65,
+        2
+      ]
+    },
+    {
+      "id": 403,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 404,
+      "rightModuleId": 401,
+      "data": {},
+      "pos": [
+        32,
+        2
+      ]
+    },
+    {
+      "id": 404,
+      "plugin": "Bogaudio",
+      "version": "1.1.37",
+      "model": "Bogaudio-CVD",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 403,
+      "data": {},
+      "pos": [
+        29,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 702,
+      "outputModuleId": 375,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 703,
+      "outputModuleId": 375,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 712,
+      "outputModuleId": 379,
+      "outputId": 1,
+      "inputModuleId": 385,
+      "inputId": 32,
+      "color": "#364449"
+    },
+    {
+      "id": 713,
+      "outputModuleId": 385,
+      "outputId": 0,
+      "inputModuleId": 382,
+      "inputId": 12,
+      "color": "#364449"
+    },
+    {
+      "id": 714,
+      "outputModuleId": 385,
+      "outputId": 3,
+      "inputModuleId": 382,
+      "inputId": 14,
+      "color": "#364449"
+    },
+    {
+      "id": 722,
+      "outputModuleId": 385,
+      "outputId": 4,
+      "inputModuleId": 391,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 723,
+      "outputModuleId": 391,
+      "outputId": 0,
+      "inputModuleId": 382,
+      "inputId": 15,
+      "color": "#364449"
+    },
+    {
+      "id": 724,
+      "outputModuleId": 385,
+      "outputId": 1,
+      "inputModuleId": 392,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 725,
+      "outputModuleId": 392,
+      "outputId": 0,
+      "inputModuleId": 382,
+      "inputId": 13,
+      "color": "#364449"
+    },
+    {
+      "id": 730,
+      "outputModuleId": 379,
+      "outputId": 2,
+      "inputModuleId": 394,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "id": 728,
+      "outputModuleId": 385,
+      "outputId": 7,
+      "inputModuleId": 394,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "id": 729,
+      "outputModuleId": 394,
+      "outputId": 0,
+      "inputModuleId": 382,
+      "inputId": 9,
+      "color": "#364449"
+    },
+    {
+      "id": 732,
+      "outputModuleId": 385,
+      "outputId": 6,
+      "inputModuleId": 382,
+      "inputId": 8,
+      "color": "#364449"
+    },
+    {
+      "id": 733,
+      "outputModuleId": 385,
+      "outputId": 10,
+      "inputModuleId": 395,
+      "inputId": 12,
+      "color": "#364449"
+    },
+    {
+      "id": 735,
+      "outputModuleId": 396,
+      "outputId": 0,
+      "inputModuleId": 395,
+      "inputId": 14,
+      "color": "#364449"
+    },
+    {
+      "id": 734,
+      "outputModuleId": 385,
+      "outputId": 9,
+      "inputModuleId": 397,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "id": 736,
+      "outputModuleId": 397,
+      "outputId": 0,
+      "inputModuleId": 396,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 739,
+      "outputModuleId": 379,
+      "outputId": 4,
+      "inputModuleId": 385,
+      "inputId": 33,
+      "color": "#364449"
+    },
+    {
+      "id": 740,
+      "outputModuleId": 379,
+      "outputId": 4,
+      "inputModuleId": 399,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "id": 737,
+      "outputModuleId": 397,
+      "outputId": 2,
+      "inputModuleId": 397,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "id": 742,
+      "outputModuleId": 397,
+      "outputId": 3,
+      "inputModuleId": 400,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "id": 743,
+      "outputModuleId": 400,
+      "outputId": 0,
+      "inputModuleId": 395,
+      "inputId": 13,
+      "color": "#364449"
+    },
+    {
+      "id": 744,
+      "outputModuleId": 399,
+      "outputId": 0,
+      "inputModuleId": 401,
+      "inputId": 12,
+      "color": "#364449"
+    },
+    {
+      "id": 745,
+      "outputModuleId": 399,
+      "outputId": 1,
+      "inputModuleId": 401,
+      "inputId": 14,
+      "color": "#364449"
+    },
+    {
+      "id": 746,
+      "outputModuleId": 399,
+      "outputId": 2,
+      "inputModuleId": 401,
+      "inputId": 8,
+      "color": "#364449"
+    },
+    {
+      "id": 738,
+      "outputModuleId": 397,
+      "outputId": 1,
+      "inputModuleId": 402,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 747,
+      "outputModuleId": 402,
+      "outputId": 0,
+      "inputModuleId": 399,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "id": 748,
+      "outputModuleId": 399,
+      "outputId": 3,
+      "inputModuleId": 403,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 749,
+      "outputModuleId": 403,
+      "outputId": 0,
+      "inputModuleId": 401,
+      "inputId": 13,
+      "color": "#364449"
+    },
+    {
+      "id": 750,
+      "outputModuleId": 399,
+      "outputId": 4,
+      "inputModuleId": 404,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "id": 751,
+      "outputModuleId": 404,
+      "outputId": 0,
+      "inputModuleId": 401,
+      "inputId": 15,
+      "color": "#364449"
+    }
+  ]
+}
