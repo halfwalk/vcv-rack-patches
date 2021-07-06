@@ -66,7 +66,9 @@ experiment with sidechaining. and a random wood panel? idk
 
 earlier experiment with sequential switches and chord changes ... 
 
+## 07/06 - polymath
 
+preliminary experiment in random drum velocity
 
 
 
