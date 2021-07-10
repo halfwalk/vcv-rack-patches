@@ -130,10 +130,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.404121816,
-      "overlay_g": 0.281710923,
-      "overlay_b": 0.176781893,
-      "overlay_a": 0.200538605,
+      "overlay_r": 0.870457947,
+      "overlay_g": 0.719222009,
+      "overlay_b": 0.308170259,
+      "overlay_a": 0.289650321,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -148,7 +148,7 @@
       "version": "1.3.3",
       "model": "BlankPanel_Wood",
       "params": [],
-      "leftModuleId": 405,
+      "leftModuleId": 477,
       "gestaltID": 1,
       "gradient": false,
       "patina": false,
@@ -157,10 +157,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.121755719,
-      "overlay_g": 0.338027,
-      "overlay_b": 0.867901266,
-      "overlay_a": 0.113702044,
+      "overlay_r": 0.0340724587,
+      "overlay_g": 0.5987221,
+      "overlay_b": 0.0629959702,
+      "overlay_a": 0.368063897,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -184,10 +184,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.362440884,
-      "overlay_g": 0.358983934,
-      "overlay_b": 0.486017823,
-      "overlay_a": 0.172580987,
+      "overlay_r": 0.178931177,
+      "overlay_g": 0.944147587,
+      "overlay_b": 0.615384102,
+      "overlay_a": 0.264098942,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -202,7 +202,7 @@
       "version": "1.3.3",
       "model": "BlankPanel_Wood",
       "params": [],
-      "rightModuleId": 477,
+      "rightModuleId": 379,
       "gestaltID": 1,
       "gradient": false,
       "patina": false,
@@ -211,10 +211,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.751794517,
-      "overlay_g": 0.842431188,
-      "overlay_b": 0.314730585,
-      "overlay_a": 0.344385415,
+      "overlay_r": 0.924599469,
+      "overlay_g": 0.247998238,
+      "overlay_b": 0.4843871,
+      "overlay_a": 0.429876208,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -270,11 +270,11 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 477,
+      "leftModuleId": 365,
       "rightModuleId": 401,
       "data": {
         "panelTheme": 0,
-        "running": true,
+        "running": false,
         "bpmDetectionMode": false,
         "resetOnStartStop": 0,
         "ppqn": 4,
@@ -290,7 +290,7 @@
         "clockMaster": -1
       },
       "pos": [
-        7,
+        4,
         1
       ]
     },
@@ -462,7 +462,7 @@
         "running": 1
       },
       "pos": [
-        17,
+        14,
         1
       ]
     },
@@ -498,7 +498,7 @@
         }
       ],
       "leftModuleId": 445,
-      "rightModuleId": 362,
+      "rightModuleId": 477,
       "data": {
         "states": [
           1,
@@ -510,7 +510,7 @@
         ]
       },
       "pos": [
-        89,
+        86,
         1
       ]
     },
@@ -526,7 +526,7 @@
         },
         {
           "id": 1,
-          "value": 0.639500082
+          "value": 0.656000137
         },
         {
           "id": 2,
@@ -558,7 +558,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.572000146
+          "value": 0.641000152
         },
         {
           "id": 1,
@@ -639,7 +639,7 @@
         "vibrations0": 0,
         "vibrations1": 0,
         "noiseRange0": 0.0,
-        "noiseRange1": 0.0
+        "noiseRange1": 1.0
       },
       "pos": [
         80,
@@ -771,17 +771,17 @@
         }
       ],
       "leftModuleId": 466,
-      "rightModuleId": 420,
+      "rightModuleId": 463,
       "data": {
         "panelTheme": 0,
-        "oscM_phase": 1055518112,
-        "oscC_phase": 1940542240,
-        "osc1M_phase": 1986766176,
-        "osc1C_phase": 3617807592,
-        "osc2M_phase": 2830969720,
-        "osc2C_phase": 3839466544,
-        "osc3M_phase": 2683367536,
-        "osc3C_phase": 3793997216,
+        "oscM_phase": 2525941184,
+        "oscC_phase": 2570136384,
+        "osc1M_phase": 2683461104,
+        "osc1C_phase": 1186998864,
+        "osc2M_phase": 416377448,
+        "osc2C_phase": 877734128,
+        "osc3M_phase": 2424222640,
+        "osc3C_phase": 3341724672,
         "osc4M_phase": 0,
         "osc4C_phase": 0,
         "osc5M_phase": 0,
@@ -814,7 +814,7 @@
         "cross": 1
       },
       "pos": [
-        48,
+        38,
         2
       ]
     },
@@ -902,19 +902,19 @@
         },
         {
           "id": 15,
-          "value": 0.0188999996
+          "value": 0.0454499796
         },
         {
           "id": 16,
-          "value": 0.0379500017
+          "value": 0.041550003
         },
         {
           "id": 17,
-          "value": 0.061499998
+          "value": 0.0736500099
         },
         {
           "id": 18,
-          "value": 0.0755999908
+          "value": 0.0659499839
         },
         {
           "id": 19,
@@ -942,29 +942,29 @@
       "data": {
         "m_channels": [
           1.0,
-          0.5,
+          0.214138329,
           false,
           false,
           1.0,
-          0.5,
+          0.407499999,
           false,
           false,
           1.0,
-          0.5,
+          0.659765601,
           false,
           false,
           1.0,
-          0.5,
+          0.50843817,
           false,
           false
         ],
-        "m_master_volume": 0.74921912,
+        "m_master_volume": 1.0,
         "m_master_mute_trig": false,
         "m_low_power": false,
         "m_cvcompatible": false,
         "m_show_post_out": false,
         "m_post_outputs_unaffected_by_solo_mode": false,
-        "m_attenuation": 1.0,
+        "m_attenuation": 0.5,
         "m_limiting_mode": 0,
         "m_poly_out": 4
       },
@@ -981,11 +981,11 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 0.0209999997
         },
         {
           "id": 1,
-          "value": 0.115229987
+          "value": 0.110729992
         },
         {
           "id": 2,
@@ -1000,7 +1000,7 @@
           "value": 1.0
         }
       ],
-      "leftModuleId": 417,
+      "leftModuleId": 463,
       "rightModuleId": 426,
       "data": {
         "skin": "light",
@@ -1114,7 +1114,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.346999615
+          "value": 0.354499668
         },
         {
           "id": 1,
@@ -1122,7 +1122,7 @@
         },
         {
           "id": 2,
-          "value": 0.315000117
+          "value": 0.294000298
         },
         {
           "id": 3,
@@ -1327,7 +1327,7 @@
         },
         {
           "id": 2,
-          "value": 0.322500139
+          "value": 0.327000052
         },
         {
           "id": 3,
@@ -1341,7 +1341,7 @@
       "leftModuleId": 455,
       "rightModuleId": 437,
       "pos": [
-        58,
+        55,
         1
       ]
     },
@@ -1363,7 +1363,7 @@
       "leftModuleId": 437,
       "rightModuleId": 433,
       "pos": [
-        69,
+        66,
         1
       ]
     },
@@ -1376,7 +1376,7 @@
       "leftModuleId": 431,
       "rightModuleId": 435,
       "pos": [
-        72,
+        69,
         1
       ]
     },
@@ -1429,7 +1429,7 @@
         "inputRange": 0
       },
       "pos": [
-        78,
+        75,
         1
       ]
     },
@@ -1467,7 +1467,7 @@
         "invert": 1.0
       },
       "pos": [
-        66,
+        63,
         1
       ]
     },
@@ -1486,10 +1486,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.978491664,
-      "overlay_g": 0.0177145004,
-      "overlay_b": 0.728777349,
-      "overlay_a": 0.429704159,
+      "overlay_r": 0.465058506,
+      "overlay_g": 0.972284734,
+      "overlay_b": 0.792226553,
+      "overlay_a": 0.109920502,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -1513,10 +1513,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.09233284,
-      "overlay_g": 0.571899831,
-      "overlay_b": 0.839198887,
-      "overlay_a": 0.137264669,
+      "overlay_r": 0.678123534,
+      "overlay_g": 0.233819485,
+      "overlay_b": 0.222132206,
+      "overlay_a": 0.283269316,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -1551,10 +1551,11 @@
       "leftModuleId": 435,
       "rightModuleId": 405,
       "data": {
+        "skin": "light",
         "invert": 1.0
       },
       "pos": [
-        86,
+        83,
         1
       ]
     },
@@ -1621,19 +1622,19 @@
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.230999991
         },
         {
           "id": 5,
-          "value": 0.0
+          "value": 0.153000027
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.465000093
         },
         {
           "id": 7,
-          "value": 0.0
+          "value": 0.369000137
         },
         {
           "id": 8,
@@ -1682,11 +1683,11 @@
         "m_param_values0": 1.20000005,
         "m_param_values1": 1.31999993,
         "m_param_values2": 1.64999998,
-        "m_param_values3": 0.0,
+        "m_param_values3": 0.850000024,
         "m_mono_mode": false
       },
       "pos": [
-        45,
+        42,
         1
       ]
     },
@@ -1699,10 +1700,10 @@
       "leftModuleId": 451,
       "rightModuleId": 429,
       "data": {
-        "skin": ""
+        "skin": "light"
       },
       "pos": [
-        52,
+        49,
         1
       ]
     },
@@ -1753,7 +1754,8 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 467,
+      "leftModuleId": 417,
+      "rightModuleId": 420,
       "data": {
         "path": "D:\\Backup\\Pictures\\WP\\cf20a8cnj7j21.jpg",
         "width": 150.0,
@@ -1766,7 +1768,7 @@
         "rotation": 0
       },
       "pos": [
-        32,
+        45,
         2
       ]
     },
@@ -1789,15 +1791,17 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 467,
       "rightModuleId": 417,
       "data": {
+        "skin": "light",
         "poly_input": 8,
         "select_on_clock": false,
         "triggered_select": false,
         "reverse_on_negative_clock": false
       },
       "pos": [
-        42,
+        32,
         2
       ]
     },
@@ -1845,7 +1849,7 @@
         }
       ],
       "leftModuleId": 418,
-      "rightModuleId": 463,
+      "rightModuleId": 466,
       "pos": [
         24,
         2
@@ -1860,10 +1864,10 @@
       "leftModuleId": 401,
       "rightModuleId": 451,
       "data": {
-        "skin": ""
+        "skin": "light"
       },
       "pos": [
-        33,
+        30,
         1
       ]
     },
@@ -1983,15 +1987,16 @@
           "value": 1.0
         }
       ],
-      "leftModuleId": 365,
-      "rightModuleId": 379,
+      "leftModuleId": 405,
+      "rightModuleId": 362,
       "data": {
+        "skin": "light",
         "output_sampling": 0.0,
         "pulse_width": -0.851063788,
         "smoothing": 0.0
       },
       "pos": [
-        4,
+        92,
         1
       ]
     }
@@ -2180,14 +2185,6 @@
       "inputModuleId": 424,
       "inputId": 3,
       "color": "#c91847"
-    },
-    {
-      "id": 837,
-      "outputModuleId": 413,
-      "outputId": 8,
-      "inputModuleId": 424,
-      "inputId": 1,
-      "color": "#0c8e15"
     },
     {
       "id": 843,
@@ -2646,20 +2643,196 @@
       "color": "#364449"
     },
     {
-      "id": 866,
-      "outputModuleId": 433,
-      "outputId": 11,
-      "inputModuleId": 435,
-      "inputId": 0,
-      "color": "#c9b70e"
-    },
-    {
       "id": 867,
       "outputModuleId": 433,
       "outputId": 4,
       "inputModuleId": 435,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 866,
+      "outputModuleId": 433,
+      "outputId": 11,
+      "inputModuleId": 435,
       "inputId": 1,
       "color": "#c9b70e"
+    },
+    {
+      "id": 1056,
+      "outputModuleId": 401,
+      "outputId": 1,
+      "inputModuleId": 413,
+      "inputId": 15,
+      "color": "#364449"
+    },
+    {
+      "id": 1055,
+      "outputModuleId": 413,
+      "outputId": 10,
+      "inputModuleId": 419,
+      "inputId": 18,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1052,
+      "outputModuleId": 413,
+      "outputId": 11,
+      "inputModuleId": 419,
+      "inputId": 15,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1050,
+      "outputModuleId": 413,
+      "outputId": 12,
+      "inputModuleId": 419,
+      "inputId": 16,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1051,
+      "outputModuleId": 413,
+      "outputId": 8,
+      "inputModuleId": 419,
+      "inputId": 17,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1057,
+      "outputModuleId": 477,
+      "outputId": 0,
+      "inputModuleId": 413,
+      "inputId": 12,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1058,
+      "outputModuleId": 422,
+      "outputId": 1,
+      "inputModuleId": 413,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1060,
+      "outputModuleId": 445,
+      "outputId": 0,
+      "inputModuleId": 413,
+      "inputId": 10,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1061,
+      "outputModuleId": 477,
+      "outputId": 0,
+      "inputModuleId": 447,
+      "inputId": 4,
+      "color": "#364449"
+    },
+    {
+      "id": 1062,
+      "outputModuleId": 447,
+      "outputId": 4,
+      "inputModuleId": 413,
+      "inputId": 13,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1065,
+      "outputModuleId": 477,
+      "outputId": 0,
+      "inputModuleId": 447,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1068,
+      "outputModuleId": 447,
+      "outputId": 5,
+      "inputModuleId": 424,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1069,
+      "outputModuleId": 477,
+      "outputId": 0,
+      "inputModuleId": 447,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1070,
+      "outputModuleId": 447,
+      "outputId": 6,
+      "inputModuleId": 429,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1071,
+      "outputModuleId": 401,
+      "outputId": 5,
+      "inputModuleId": 405,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "id": 1072,
+      "outputModuleId": 401,
+      "outputId": 4,
+      "inputModuleId": 405,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "id": 1073,
+      "outputModuleId": 405,
+      "outputId": 0,
+      "inputModuleId": 447,
+      "inputId": 7,
+      "color": "#364449"
+    },
+    {
+      "id": 1078,
+      "outputModuleId": 468,
+      "outputId": 3,
+      "inputModuleId": 447,
+      "inputId": 15,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1076,
+      "outputModuleId": 447,
+      "outputId": 7,
+      "inputModuleId": 446,
+      "inputId": 10,
+      "color": "#364449"
+    },
+    {
+      "id": 1077,
+      "outputModuleId": 413,
+      "outputId": 0,
+      "inputModuleId": 455,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1080,
+      "outputModuleId": 455,
+      "outputId": 3,
+      "inputModuleId": 468,
+      "inputId": 9,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 1075,
+      "outputModuleId": 451,
+      "outputId": 3,
+      "inputModuleId": 468,
+      "inputId": 10,
+      "color": "#0c8e15"
     }
   ]
 }

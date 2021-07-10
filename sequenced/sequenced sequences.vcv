@@ -996,8 +996,8 @@
         "resetOnRun": false,
         "quantize": 0,
         "uncertainty": false,
-        "stepIndexes0": 12,
-        "stepIndexes1": 0,
+        "stepIndexes0": 6,
+        "stepIndexes1": 12,
         "states0": 2,
         "states1": 2,
         "ranges0": 1,
@@ -1256,14 +1256,14 @@
         "channels": [
           {
             "order": 2,
-            "beat": 3,
+            "beat": 0,
             "beats": [
               2,
-              2,
+              1,
               0,
-              1
+              -1
             ],
-            "step": 2,
+            "step": 0,
             "steps": [
               {
                 "mode": 3,
@@ -1353,7 +1353,7 @@
               0,
               0
             ],
-            "step": 2,
+            "step": 4,
             "steps": [
               {
                 "mode": 0,
@@ -1398,7 +1398,7 @@
               0,
               0
             ],
-            "step": 2,
+            "step": 4,
             "steps": [
               {
                 "mode": 0,
@@ -1731,8 +1731,8 @@
       "rightModuleId": 492,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 2528930304,
-        "oscC_phase": 3858981120,
+        "oscM_phase": 2497244992,
+        "oscC_phase": 3609441568,
         "osc1M_phase": 0,
         "osc1C_phase": 0,
         "osc2M_phase": 0,
@@ -1863,12 +1863,12 @@
       "rightModuleId": 498,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 638924576,
-        "oscC_phase": 442826720,
-        "osc1M_phase": 670218656,
-        "osc1C_phase": 2145828288,
-        "osc2M_phase": 732876736,
-        "osc2C_phase": 1101349248,
+        "oscM_phase": 343578560,
+        "oscC_phase": 1439751456,
+        "osc1M_phase": 1545907872,
+        "osc1C_phase": 2363020928,
+        "osc2M_phase": 2000025920,
+        "osc2C_phase": 1414872064,
         "osc3M_phase": 2541005728,
         "osc3C_phase": 2541005728,
         "osc4M_phase": 0,
@@ -2104,7 +2104,7 @@
         },
         {
           "id": 38,
-          "value": 4.0
+          "value": 7.0
         },
         {
           "id": 39,
