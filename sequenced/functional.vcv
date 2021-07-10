@@ -130,10 +130,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.648934245,
-      "overlay_g": 0.249460995,
-      "overlay_b": 0.162841856,
-      "overlay_a": 0.431668252,
+      "overlay_r": 0.404121816,
+      "overlay_g": 0.281710923,
+      "overlay_b": 0.176781893,
+      "overlay_a": 0.200538605,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -157,10 +157,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.992066145,
-      "overlay_g": 0.955224991,
-      "overlay_b": 0.359944582,
-      "overlay_a": 0.266353816,
+      "overlay_r": 0.121755719,
+      "overlay_g": 0.338027,
+      "overlay_b": 0.867901266,
+      "overlay_a": 0.113702044,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -184,10 +184,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.665664971,
-      "overlay_g": 0.367796779,
-      "overlay_b": 0.0590630174,
-      "overlay_a": 0.322114021,
+      "overlay_r": 0.362440884,
+      "overlay_g": 0.358983934,
+      "overlay_b": 0.486017823,
+      "overlay_a": 0.172580987,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -211,10 +211,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.839462698,
-      "overlay_g": 0.212723136,
-      "overlay_b": 0.767865896,
-      "overlay_a": 0.417645991,
+      "overlay_r": 0.751794517,
+      "overlay_g": 0.842431188,
+      "overlay_b": 0.314730585,
+      "overlay_a": 0.344385415,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -774,14 +774,14 @@
       "rightModuleId": 420,
       "data": {
         "panelTheme": 0,
-        "oscM_phase": 3150744096,
-        "oscC_phase": 2736714976,
-        "osc1M_phase": 2812192384,
-        "osc1C_phase": 1256277920,
-        "osc2M_phase": 123516216,
-        "osc2C_phase": 372507632,
-        "osc3M_phase": 389305952,
-        "osc3C_phase": 2777517504,
+        "oscM_phase": 1055518112,
+        "oscC_phase": 1940542240,
+        "osc1M_phase": 1986766176,
+        "osc1C_phase": 3617807592,
+        "osc2M_phase": 2830969720,
+        "osc2C_phase": 3839466544,
+        "osc3M_phase": 2683367536,
+        "osc3C_phase": 3793997216,
         "osc4M_phase": 0,
         "osc4C_phase": 0,
         "osc5M_phase": 0,
@@ -1096,9 +1096,9 @@
         "patternLength": 7,
         "numLoops": 1,
         "immediateReset": 0,
-        "startupState": 1,
-        "started": true,
-        "running": true,
+        "startupState": 2,
+        "started": false,
+        "running": false,
         "stepOutsAlwaysActive": false
       },
       "pos": [
@@ -1263,9 +1263,9 @@
         "patternLength": 4,
         "numLoops": 1,
         "immediateReset": 0,
-        "startupState": 1,
-        "started": true,
-        "running": true,
+        "startupState": 2,
+        "started": false,
+        "running": false,
         "stepOutsAlwaysActive": false
       },
       "pos": [
@@ -1486,10 +1486,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.376488268,
-      "overlay_g": 0.261244118,
-      "overlay_b": 0.163920879,
-      "overlay_a": 0.247982621,
+      "overlay_r": 0.978491664,
+      "overlay_g": 0.0177145004,
+      "overlay_b": 0.728777349,
+      "overlay_a": 0.429704159,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -1513,10 +1513,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.410911322,
-      "overlay_g": 0.941442192,
-      "overlay_b": 0.93262881,
-      "overlay_a": 0.373992443,
+      "overlay_r": 0.09233284,
+      "overlay_g": 0.571899831,
+      "overlay_b": 0.839198887,
+      "overlay_a": 0.137264669,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -1698,7 +1698,9 @@
       "params": [],
       "leftModuleId": 451,
       "rightModuleId": 429,
-      "data": {},
+      "data": {
+        "skin": ""
+      },
       "pos": [
         52,
         1
@@ -1752,7 +1754,6 @@
         }
       ],
       "leftModuleId": 467,
-      "rightModuleId": 466,
       "data": {
         "path": "D:\\Backup\\Pictures\\WP\\cf20a8cnj7j21.jpg",
         "width": 150.0,
@@ -1788,7 +1789,6 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 463,
       "rightModuleId": 417,
       "data": {
         "poly_input": 8,
@@ -2262,22 +2262,6 @@
       "color": "#364449"
     },
     {
-      "id": 866,
-      "outputModuleId": 433,
-      "outputId": 11,
-      "inputModuleId": 435,
-      "inputId": 2,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 867,
-      "outputModuleId": 433,
-      "outputId": 4,
-      "inputModuleId": 435,
-      "inputId": 3,
-      "color": "#c9b70e"
-    },
-    {
       "id": 869,
       "outputModuleId": 427,
       "outputId": 11,
@@ -2660,6 +2644,22 @@
       "inputModuleId": 466,
       "inputId": 8,
       "color": "#364449"
+    },
+    {
+      "id": 866,
+      "outputModuleId": 433,
+      "outputId": 11,
+      "inputModuleId": 435,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 867,
+      "outputModuleId": 433,
+      "outputId": 4,
+      "inputModuleId": 435,
+      "inputId": 1,
+      "color": "#c9b70e"
     }
   ]
 }
