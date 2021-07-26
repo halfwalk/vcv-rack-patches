@@ -12,7 +12,7 @@
       "data": {
         "audio": {
           "driver": 7,
-          "deviceName": "ReaRoute ASIO (x64)",
+          "deviceName": "Studio USB ASIO Driver",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 48000,
@@ -40,7 +40,6 @@
         "lastMod": 0,
         "midi": {
           "driver": 4,
-          "deviceName": "loopMIDI Port 1",
           "channel": -1
         }
       },
@@ -52,7 +51,7 @@
     {
       "id": 76,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "Mb",
       "params": [],
       "leftModuleId": 364,
@@ -68,7 +67,7 @@
     {
       "id": 79,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "Stroke",
       "params": [],
       "leftModuleId": 76,
@@ -181,7 +180,6 @@
         ],
         "midi": {
           "driver": 4,
-          "deviceName": "loopMIDI Port 1",
           "channel": -1
         }
       },
@@ -196,6 +194,7 @@
       "version": "1.3.3",
       "model": "BlankPanel_Wood",
       "params": [],
+      "leftModuleId": 479,
       "gestaltID": 1,
       "gradient": false,
       "patina": false,
@@ -204,15 +203,15 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.705524743,
-      "overlay_g": 0.0106538534,
-      "overlay_b": 0.431899965,
-      "overlay_a": 0.163013831,
+      "overlay_r": 0.541818976,
+      "overlay_g": 0.755012214,
+      "overlay_b": 0.880681515,
+      "overlay_a": 0.381426305,
       "AGED": false,
       "screws": true,
       "logo": false,
       "pos": [
-        116,
+        115,
         0
       ]
     },
@@ -230,10 +229,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.46426338,
-      "overlay_g": 0.994863808,
-      "overlay_b": 0.150108099,
-      "overlay_a": 0.199319839,
+      "overlay_r": 0.171763182,
+      "overlay_g": 0.867474318,
+      "overlay_b": 0.758803189,
+      "overlay_a": 0.405544251,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -248,6 +247,7 @@
       "version": "1.3.3",
       "model": "BlankPanel_Wood",
       "params": [],
+      "leftModuleId": 483,
       "gestaltID": 1,
       "gradient": false,
       "patina": false,
@@ -256,42 +256,16 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.136428475,
-      "overlay_g": 0.656137705,
-      "overlay_b": 0.085308969,
-      "overlay_a": 0.181425363,
+      "overlay_r": 0.898625791,
+      "overlay_g": 0.517248929,
+      "overlay_b": 0.00373965502,
+      "overlay_a": 0.400826007,
       "AGED": false,
       "screws": true,
       "logo": false,
       "pos": [
-        116,
+        115,
         1
-      ]
-    },
-    {
-      "id": 363,
-      "plugin": "LindenbergResearch",
-      "version": "1.3.3",
-      "model": "BlankPanel_Wood",
-      "params": [],
-      "gestaltID": 1,
-      "gradient": false,
-      "patina": false,
-      "patina_i_x": false,
-      "patina_i_y": false,
-      "patina_a_x": 1048.69849,
-      "patina_a_y": 465.392822,
-      "overlay": false,
-      "overlay_r": 0.801946461,
-      "overlay_g": 0.621110976,
-      "overlay_b": 0.236612499,
-      "overlay_a": 0.16666314,
-      "AGED": false,
-      "screws": true,
-      "logo": false,
-      "pos": [
-        116,
-        2
       ]
     },
     {
@@ -309,10 +283,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.923231542,
-      "overlay_g": 0.701641798,
-      "overlay_b": 0.8189255,
-      "overlay_a": 0.363214731,
+      "overlay_r": 0.527354836,
+      "overlay_g": 0.341510177,
+      "overlay_b": 0.249272227,
+      "overlay_a": 0.418786347,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -336,42 +310,16 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.836827755,
-      "overlay_g": 0.775634348,
-      "overlay_b": 0.147072077,
-      "overlay_a": 0.205459297,
+      "overlay_r": 0.227221668,
+      "overlay_g": 0.773307323,
+      "overlay_b": 0.405060709,
+      "overlay_a": 0.195735633,
       "AGED": false,
       "screws": true,
       "logo": false,
       "pos": [
         0,
         1
-      ]
-    },
-    {
-      "id": 366,
-      "plugin": "LindenbergResearch",
-      "version": "1.3.3",
-      "model": "BlankPanel_Wood",
-      "params": [],
-      "gestaltID": 1,
-      "gradient": false,
-      "patina": false,
-      "patina_i_x": true,
-      "patina_i_y": false,
-      "patina_a_x": 732.980896,
-      "patina_a_y": 232.628174,
-      "overlay": false,
-      "overlay_r": 0.486455142,
-      "overlay_g": 0.00256115198,
-      "overlay_b": 0.889767647,
-      "overlay_a": 0.393562019,
-      "AGED": false,
-      "screws": true,
-      "logo": false,
-      "pos": [
-        0,
-        2
       ]
     },
     {
@@ -388,10 +336,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.489578962,
-      "overlay_g": 0.305112839,
-      "overlay_b": 0.507379234,
-      "overlay_a": 0.422548473,
+      "overlay_r": 0.0354922414,
+      "overlay_g": 0.833884716,
+      "overlay_b": 0.290497243,
+      "overlay_a": 0.196244001,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -403,7 +351,7 @@
     {
       "id": 375,
       "plugin": "squinkylabs-plug1",
-      "version": "1.0.19",
+      "version": "1.0.21",
       "model": "squinkylabs-mix8",
       "params": [
         {
@@ -589,7 +537,7 @@
     {
       "id": 379,
       "plugin": "ImpromptuModular",
-      "version": "1.1.10",
+      "version": "1.1.11",
       "model": "Clocked-Clkd",
       "params": [
         {
@@ -870,8 +818,8 @@
         "resetOnRun": false,
         "quantize": 3,
         "uncertainty": false,
-        "stepIndexes0": 7,
-        "stepIndexes1": 8,
+        "stepIndexes0": 12,
+        "stepIndexes1": 5,
         "states0": 2,
         "states1": 0,
         "ranges0": 2,
@@ -1229,8 +1177,8 @@
       "rightModuleId": 470,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 2220159936,
-        "oscC_phase": 1657451072,
+        "oscM_phase": 2849608128,
+        "oscC_phase": 1667200800,
         "osc1M_phase": 0,
         "osc1C_phase": 0,
         "osc2M_phase": 0,
@@ -1324,8 +1272,8 @@
       "rightModuleId": 471,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 1392923168,
-        "oscC_phase": 1838709568,
+        "oscM_phase": 4199591552,
+        "oscC_phase": 350410656,
         "osc1M_phase": 0,
         "osc1C_phase": 0,
         "osc2M_phase": 0,
@@ -1562,14 +1510,15 @@
         }
       ],
       "leftModuleId": 472,
+      "rightModuleId": 476,
       "data": {
         "panelTheme": 1,
         "running": true,
         "resetOnRun": false,
         "quantize": 0,
         "uncertainty": false,
-        "stepIndexes0": 11,
-        "stepIndexes1": 3,
+        "stepIndexes0": 7,
+        "stepIndexes1": 15,
         "states0": 2,
         "states1": 2,
         "ranges0": 1,
@@ -1629,7 +1578,7 @@
         }
       ],
       "leftModuleId": 1,
-      "rightModuleId": 475,
+      "rightModuleId": 481,
       "data": {
         "delay_mode": 0,
         "hold_behavior": 0,
@@ -1655,7 +1604,7 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 474,
+      "leftModuleId": 481,
       "rightModuleId": 479,
       "data": {
         "deviations": {
@@ -1736,7 +1685,7 @@
         }
       },
       "pos": [
-        78,
+        90,
         0
       ]
     },
@@ -1787,12 +1736,12 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 479,
+      "leftModuleId": 473,
       "rightModuleId": 477,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 3445170848,
-        "oscC_phase": 3906875424,
+        "oscM_phase": 2383322320,
+        "oscC_phase": 519172368,
         "osc1M_phase": 0,
         "osc1C_phase": 0,
         "osc2M_phase": 0,
@@ -1831,8 +1780,8 @@
         "cross": 1
       },
       "pos": [
-        103,
-        0
+        99,
+        1
       ]
     },
     {
@@ -1863,12 +1812,13 @@
         }
       ],
       "leftModuleId": 476,
+      "rightModuleId": 482,
       "data": {
         "invert": 1.0
       },
       "pos": [
-        110,
-        0
+        106,
+        1
       ]
     },
     {
@@ -2059,7 +2009,7 @@
         }
       ],
       "leftModuleId": 475,
-      "rightModuleId": 476,
+      "rightModuleId": 360,
       "data": {
         "panelTheme": 1,
         "running": true,
@@ -2072,35 +2022,201 @@
         "addMode": false,
         "sources0": 0,
         "sources1": 0,
-        "stepIndex": 4,
+        "stepIndex": 1,
         "pipeBlue": true,
-        "randomCVs0": 0.138943315,
-        "randomCVs1": 0.250899374,
+        "randomCVs0": 0.00300842524,
+        "randomCVs1": 0.648751259,
         "clkSource": 0
       },
       "pos": [
-        82,
+        94,
         0
+      ]
+    },
+    {
+      "id": 481,
+      "plugin": "Valley",
+      "version": "1.1.7",
+      "model": "Plateau",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 10.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 10.0
+        },
+        {
+          "id": 7,
+          "value": 0.549950004
+        },
+        {
+          "id": 8,
+          "value": 10.0
+        },
+        {
+          "id": 9,
+          "value": 10.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.5
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 474,
+      "rightModuleId": 475,
+      "data": {
+        "frozen": false,
+        "freezeToggle": false,
+        "panelStyle": 0,
+        "tuned": 0,
+        "diffuseInput": 1,
+        "preDelayCVSens": 0,
+        "inputSensitivity": 0,
+        "outputSaturation": 0
+      },
+      "pos": [
+        78,
+        0
+      ]
+    },
+    {
+      "id": 482,
+      "plugin": "Geodesics",
+      "version": "1.2.0",
+      "model": "Blank-PanelLogo",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 477,
+      "rightModuleId": 483,
+      "data": {
+        "panelTheme": 1
+      },
+      "pos": [
+        109,
+        1
+      ]
+    },
+    {
+      "id": 483,
+      "plugin": "Stoermelder-P1",
+      "version": "1.10.0",
+      "model": "Me",
+      "params": [],
+      "leftModuleId": 482,
+      "rightModuleId": 362,
+      "pos": [
+        113,
+        1
       ]
     }
   ],
   "cables": [
-    {
-      "id": 702,
-      "outputModuleId": 375,
-      "outputId": 0,
-      "inputModuleId": 1,
-      "inputId": 0,
-      "color": "#c91847"
-    },
-    {
-      "id": 703,
-      "outputModuleId": 375,
-      "outputId": 1,
-      "inputModuleId": 1,
-      "inputId": 1,
-      "color": "#c91847"
-    },
     {
       "id": 940,
       "outputModuleId": 379,
@@ -2492,6 +2608,38 @@
       "inputModuleId": 476,
       "inputId": 1,
       "color": "#0c8e15"
+    },
+    {
+      "id": 702,
+      "outputModuleId": 375,
+      "outputId": 0,
+      "inputModuleId": 481,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 703,
+      "outputModuleId": 375,
+      "outputId": 1,
+      "inputModuleId": 481,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 995,
+      "outputModuleId": 481,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 996,
+      "outputModuleId": 481,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
     }
   ]
 }
