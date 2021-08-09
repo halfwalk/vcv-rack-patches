@@ -599,8 +599,8 @@
       "data": {
         "loaded_sample_path_1": "C:\\Users\\Chris\\Desktop\\slicew\\07 - halfwalk - and this life will propagate.wav",
         "loaded_sample_path_2": "C:\\Users\\Chris\\Desktop\\slicew\\02 - oldmusic - tron sixties.wav",
-        "loaded_sample_path_3": "",
-        "loaded_sample_path_4": "",
+        "loaded_sample_path_3": "C:\\Users\\Chris\\Desktop\\slicew\\00 - oldmusic - velocidad.wav",
+        "loaded_sample_path_4": "C:\\Users\\Chris\\Desktop\\slicew\\05 - halfwalk - la vibracion.wav",
         "loaded_sample_path_5": "",
         "bipolar_pitch_mode": 0
       },
@@ -967,17 +967,17 @@
       "leftModuleId": 587,
       "rightModuleId": 615,
       "data": {
-        "step": 5,
-        "node": 17,
-        "lastNode": 17,
-        "lastGate": 17,
+        "step": 4,
+        "node": 12,
+        "lastNode": 12,
+        "lastGate": 12,
         "pathTraveled": [
           0,
           1,
-          3,
-          6,
-          11,
-          17,
+          4,
+          7,
+          12,
+          -1,
           -1,
           -1
         ]
@@ -2023,6 +2023,7 @@
         }
       ],
       "leftModuleId": 588,
+      "rightModuleId": 622,
       "data": {
         "poly_input": 0,
         "noise_type": 0,
@@ -2057,6 +2058,7 @@
       "version": "1.3.3",
       "model": "BlankPanel_Wood",
       "params": [],
+      "leftModuleId": 622,
       "gestaltID": 1,
       "gradient": false,
       "patina": false,
@@ -2074,6 +2076,23 @@
       "logo": false,
       "pos": [
         87,
+        1
+      ]
+    },
+    {
+      "id": 622,
+      "plugin": "Ohmer",
+      "version": "1.1.6",
+      "model": "OhmerBlank2",
+      "params": [],
+      "leftModuleId": 615,
+      "rightModuleId": 621,
+      "data": {
+        "Theme": 5,
+        "screwsDisposal": 0
+      },
+      "pos": [
+        85,
         1
       ]
     }
