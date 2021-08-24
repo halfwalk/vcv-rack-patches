@@ -2,59 +2,59 @@
   "stripVersion": 1,
   "rightModules": [
     {
-      "id": 739,
+      "id": 725,
       "plugin": "AS",
       "version": "1.0.4",
       "model": "Merge2_5",
       "params": [],
-      "leftModuleId": 732,
-      "rightModuleId": 733
+      "leftModuleId": 724,
+      "rightModuleId": 726
     },
     {
-      "id": 733,
+      "id": 726,
       "plugin": "FehlerFabrik-Suite",
       "version": "1.1.1",
       "model": "Aspect",
       "params": [],
-      "leftModuleId": 739,
-      "rightModuleId": 734
+      "leftModuleId": 725,
+      "rightModuleId": 727
     },
     {
-      "id": 734,
+      "id": 727,
       "plugin": "Fundamental",
       "version": "1.4.0",
       "model": "Merge",
       "params": [],
-      "leftModuleId": 733,
-      "rightModuleId": 735,
+      "leftModuleId": 726,
+      "rightModuleId": 728,
       "data": {
         "channels": -1
       }
     },
     {
-      "id": 735,
+      "id": 728,
       "plugin": "CountModula",
-      "version": "1.14.0",
+      "version": "1.15.1",
       "model": "PolyG2T",
       "params": [],
-      "leftModuleId": 734,
-      "rightModuleId": 736,
+      "leftModuleId": 727,
+      "rightModuleId": 729,
       "data": {
         "moduleVersion": 2,
         "theme": 1
       }
     },
     {
-      "id": 736,
+      "id": 729,
       "plugin": "Fundamental",
       "version": "1.4.0",
       "model": "Split",
       "params": [],
-      "leftModuleId": 735,
-      "rightModuleId": 737
+      "leftModuleId": 728,
+      "rightModuleId": 730
     },
     {
-      "id": 737,
+      "id": 730,
       "plugin": "Bogaudio",
       "version": "1.1.37",
       "model": "Bogaudio-Switch88",
@@ -316,8 +316,8 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 736,
-      "rightModuleId": 738,
+      "leftModuleId": 729,
+      "rightModuleId": 731,
       "data": {
         "clipping_mode": 0,
         "input_gain_db": 0.0,
@@ -328,7 +328,7 @@
       }
     },
     {
-      "id": 738,
+      "id": 731,
       "plugin": "Stalys",
       "version": "1.4.2",
       "model": "Clip",
@@ -366,196 +366,206 @@
           "value": -2.0
         }
       ],
-      "leftModuleId": 737,
+      "leftModuleId": 730,
+      "rightModuleId": 732,
       "data": {
         "skin": ""
       }
+    },
+    {
+      "id": 732,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 731,
+      "text": "feed a fairly fast clock into Aspect (like 8ths or 16ths)\n\nwhere X is the \"tuplet\" you want (so quintuplet, X=5), feed output (X+1) from Aspect into the right half of Merge. By default it is output 8 (for septuplet; X+1=8).\n\nalso, feed your clock reset into that same side of Merge. this is so you can reset the sequence manually as well.\n\non Switch88, each column is its own sequence.\n\nthe outputs are fed into 8 Clip (which might not be strictly necessary); for some reason, i needed to boost the triggers because my sampler module wasn't \"hearing\" them.. each output is its own sequence\n"
     }
   ],
-  "rightWidth": 1005.0,
+  "rightWidth": 1245.0,
   "leftModules": [],
   "leftWidth": 0.0,
   "cables": [
     {
-      "outputModuleId": 735,
-      "outputId": 2,
-      "inputModuleId": 736,
-      "inputId": 0,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 737,
+      "outputModuleId": 729,
       "outputId": 0,
-      "inputModuleId": 738,
+      "inputModuleId": 730,
       "inputId": 0,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
+      "outputModuleId": 729,
       "outputId": 1,
-      "inputModuleId": 738,
+      "inputModuleId": 730,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 729,
+      "outputId": 2,
+      "inputModuleId": 730,
       "inputId": 2,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
-      "outputId": 2,
-      "inputModuleId": 738,
+      "outputModuleId": 729,
+      "outputId": 3,
+      "inputModuleId": 730,
+      "inputId": 3,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 729,
+      "outputId": 4,
+      "inputModuleId": 730,
       "inputId": 4,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
-      "outputId": 3,
-      "inputModuleId": 738,
+      "outputModuleId": 729,
+      "outputId": 5,
+      "inputModuleId": 730,
+      "inputId": 5,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 729,
+      "outputId": 6,
+      "inputModuleId": 730,
       "inputId": 6,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
+      "outputModuleId": 728,
+      "outputId": 2,
+      "inputModuleId": 729,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 730,
+      "outputId": 0,
+      "inputModuleId": 731,
+      "inputId": 0,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 730,
+      "outputId": 1,
+      "inputModuleId": 731,
+      "inputId": 2,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 730,
+      "outputId": 2,
+      "inputModuleId": 731,
+      "inputId": 4,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 730,
+      "outputId": 3,
+      "inputModuleId": 731,
+      "inputId": 6,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 730,
       "outputId": 4,
-      "inputModuleId": 738,
+      "inputModuleId": 731,
       "inputId": 8,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
+      "outputModuleId": 730,
       "outputId": 5,
-      "inputModuleId": 738,
+      "inputModuleId": 731,
       "inputId": 10,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
+      "outputModuleId": 730,
       "outputId": 6,
-      "inputModuleId": 738,
+      "inputModuleId": 731,
       "inputId": 12,
       "color": "#364449"
     },
     {
-      "outputModuleId": 737,
+      "outputModuleId": 730,
       "outputId": 7,
-      "inputModuleId": 738,
+      "inputModuleId": 731,
       "inputId": 14,
       "color": "#364449"
     },
     {
-      "outputModuleId": 734,
+      "outputModuleId": 727,
       "outputId": 0,
-      "inputModuleId": 735,
+      "inputModuleId": 728,
       "inputId": 0,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 725,
+      "outputId": 1,
+      "inputModuleId": 726,
+      "inputId": 1,
+      "color": "#364449"
+    },
+    {
+      "outputModuleId": 726,
       "outputId": 6,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 0,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 7,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 1,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 8,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 2,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 9,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 3,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 10,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 4,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 11,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 5,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 12,
-      "inputModuleId": 734,
+      "inputModuleId": 727,
       "inputId": 6,
       "color": "#364449"
     },
     {
-      "outputModuleId": 733,
+      "outputModuleId": 726,
       "outputId": 13,
-      "inputModuleId": 739,
+      "inputModuleId": 725,
       "inputId": 5,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 0,
-      "inputModuleId": 737,
-      "inputId": 0,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 1,
-      "inputModuleId": 737,
-      "inputId": 1,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 2,
-      "inputModuleId": 737,
-      "inputId": 2,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 3,
-      "inputModuleId": 737,
-      "inputId": 3,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 4,
-      "inputModuleId": 737,
-      "inputId": 4,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 5,
-      "inputModuleId": 737,
-      "inputId": 5,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 736,
-      "outputId": 6,
-      "inputModuleId": 737,
-      "inputId": 6,
-      "color": "#364449"
-    },
-    {
-      "outputModuleId": 739,
-      "outputId": 1,
-      "inputModuleId": 733,
-      "inputId": 1,
       "color": "#364449"
     }
   ],
