@@ -12,7 +12,7 @@
       "data": {
         "audio": {
           "driver": 7,
-          "deviceName": "Mackie ASIO Driver",
+          "deviceName": "ReaRoute ASIO (x64)",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 48000,
@@ -40,6 +40,7 @@
         "lastMod": 0,
         "midi": {
           "driver": 4,
+          "deviceName": "loopMIDI Port 2",
           "channel": -1
         }
       },
@@ -51,7 +52,7 @@
     {
       "id": 76,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "Mb",
       "params": [],
       "leftModuleId": 79,
@@ -67,7 +68,7 @@
     {
       "id": 79,
       "plugin": "Stoermelder-P1",
-      "version": "1.9.0",
+      "version": "1.10.0",
       "model": "Stroke",
       "params": [],
       "leftModuleId": 94,
@@ -250,7 +251,7 @@
     {
       "id": 30,
       "plugin": "ImpromptuModular",
-      "version": "1.1.10",
+      "version": "1.1.12",
       "model": "Clocked",
       "params": [
         {
@@ -340,9 +341,9 @@
         "panelTheme": 1,
         "running": true,
         "displayDelayNoteMode": true,
-        "bpmDetectionMode": false,
-        "resetOnStartStop": 0,
-        "ppqn": 4,
+        "bpmDetectionMode": true,
+        "resetOnStartStop": 15,
+        "ppqn": 24,
         "resetClockOutputsHigh": true,
         "momentaryRunInput": true,
         "clockMaster": false
@@ -623,10 +624,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.614606678,
-      "overlay_g": 0.441979408,
-      "overlay_b": 0.400230944,
-      "overlay_a": 0.13795872,
+      "overlay_r": 0.778103054,
+      "overlay_g": 0.110450864,
+      "overlay_b": 0.81347692,
+      "overlay_a": 0.146274477,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -649,10 +650,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.0540071726,
-      "overlay_g": 0.530212104,
-      "overlay_b": 0.411824882,
-      "overlay_a": 0.305683821,
+      "overlay_r": 0.349096596,
+      "overlay_g": 0.599727154,
+      "overlay_b": 0.31901741,
+      "overlay_a": 0.141655415,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -675,10 +676,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.0966773033,
-      "overlay_g": 0.805454493,
-      "overlay_b": 0.36020261,
-      "overlay_a": 0.174371898,
+      "overlay_r": 0.897585511,
+      "overlay_g": 0.40863353,
+      "overlay_b": 0.891845703,
+      "overlay_a": 0.24052462,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -701,10 +702,10 @@
       "patina_a_x": 1048.69849,
       "patina_a_y": 465.392822,
       "overlay": false,
-      "overlay_r": 0.790356278,
-      "overlay_g": 0.482539296,
-      "overlay_b": 0.722673774,
-      "overlay_a": 0.422805458,
+      "overlay_r": 0.227105916,
+      "overlay_g": 0.0923478007,
+      "overlay_b": 0.0904430747,
+      "overlay_a": 0.335284948,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -728,10 +729,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.12663722,
-      "overlay_g": 0.45050323,
-      "overlay_b": 0.684185922,
-      "overlay_a": 0.430196285,
+      "overlay_r": 0.38997823,
+      "overlay_g": 0.644305646,
+      "overlay_b": 0.170617223,
+      "overlay_a": 0.147528291,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -755,10 +756,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.807511806,
-      "overlay_g": 0.150881708,
-      "overlay_b": 0.808694482,
-      "overlay_a": 0.34539175,
+      "overlay_r": 0.347331822,
+      "overlay_g": 0.692534089,
+      "overlay_b": 0.252043903,
+      "overlay_a": 0.415304154,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -781,10 +782,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.943972051,
-      "overlay_g": 0.883146107,
-      "overlay_b": 0.0871640444,
-      "overlay_a": 0.328463793,
+      "overlay_r": 0.366503775,
+      "overlay_g": 0.409117341,
+      "overlay_b": 0.268398643,
+      "overlay_a": 0.187651753,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -807,10 +808,10 @@
       "patina_a_x": 732.980896,
       "patina_a_y": 232.628174,
       "overlay": false,
-      "overlay_r": 0.0957226157,
-      "overlay_g": 0.0659161806,
-      "overlay_b": 0.937978923,
-      "overlay_a": 0.257275313,
+      "overlay_r": 0.492131233,
+      "overlay_g": 0.530577123,
+      "overlay_b": 0.309186459,
+      "overlay_a": 0.341221422,
       "AGED": false,
       "screws": true,
       "logo": false,
@@ -1133,9 +1134,9 @@
         "running": true,
         "resetOnRun": false,
         "quantize": 3,
-        "uncertainty": true,
-        "stepIndexes0": 11,
-        "stepIndexes1": 0,
+        "uncertainty": false,
+        "stepIndexes0": 12,
+        "stepIndexes1": 11,
         "states0": 2,
         "states1": 2,
         "ranges0": 1,
@@ -1584,7 +1585,7 @@
     {
       "id": 397,
       "plugin": "VultModulesFree",
-      "version": "1.16",
+      "version": "1.19.1",
       "model": "Slap",
       "params": [
         {
@@ -1634,7 +1635,7 @@
     {
       "id": 398,
       "plugin": "VultModulesFree",
-      "version": "1.16",
+      "version": "1.19.1",
       "model": "Slap",
       "params": [
         {
@@ -1684,7 +1685,7 @@
     {
       "id": 400,
       "plugin": "VultModulesFree",
-      "version": "1.16",
+      "version": "1.19.1",
       "model": "Spank",
       "params": [
         {
@@ -1726,7 +1727,7 @@
     {
       "id": 402,
       "plugin": "VultModulesFree",
-      "version": "1.16",
+      "version": "1.19.1",
       "model": "Slap",
       "params": [
         {
@@ -1859,8 +1860,8 @@
       "rightModuleId": 403,
       "data": {
         "panelTheme": 1,
-        "oscM_phase": 459368064,
-        "oscC_phase": 2662007488,
+        "oscM_phase": 4187142880,
+        "oscC_phase": 2816932448,
         "osc1M_phase": 0,
         "osc1C_phase": 0,
         "osc2M_phase": 0,
@@ -1924,7 +1925,7 @@
     {
       "id": 406,
       "plugin": "VultModulesFree",
-      "version": "1.16",
+      "version": "1.19.1",
       "model": "Spank",
       "params": [
         {
@@ -2011,10 +2012,10 @@
       "patina_a_x": 199.809601,
       "patina_a_y": 318.105682,
       "overlay": false,
-      "overlay_r": 0.215870857,
-      "overlay_g": 0.343217671,
-      "overlay_b": 0.0875503421,
-      "overlay_a": 0.206721842,
+      "overlay_r": 0.0683171153,
+      "overlay_g": 0.725277126,
+      "overlay_b": 0.602222204,
+      "overlay_a": 0.395872444,
       "pos": [
         86,
         0
@@ -2064,10 +2065,10 @@
       "patina_a_x": 100.948349,
       "patina_a_y": 66.8106003,
       "overlay": false,
-      "overlay_r": 0.962491333,
-      "overlay_g": 0.242018163,
-      "overlay_b": 0.730352223,
-      "overlay_a": 0.107047968,
+      "overlay_r": 0.505404472,
+      "overlay_g": 0.231402278,
+      "overlay_b": 0.339632809,
+      "overlay_a": 0.145276979,
       "pos": [
         41,
         2
@@ -2075,14 +2076,6 @@
     }
   ],
   "cables": [
-    {
-      "id": 47,
-      "outputModuleId": 30,
-      "outputId": 0,
-      "inputModuleId": 91,
-      "inputId": 7,
-      "color": "#364449"
-    },
     {
       "id": 668,
       "outputModuleId": 350,
@@ -2498,6 +2491,22 @@
       "inputModuleId": 393,
       "inputId": 11,
       "color": "#364449"
+    },
+    {
+      "id": 1351,
+      "outputModuleId": 5,
+      "outputId": 7,
+      "inputModuleId": 30,
+      "inputId": 6,
+      "color": "#e07a5f"
+    },
+    {
+      "id": 1352,
+      "outputModuleId": 30,
+      "outputId": 4,
+      "inputModuleId": 393,
+      "inputId": 4,
+      "color": "#3d405b"
     }
   ]
 }
